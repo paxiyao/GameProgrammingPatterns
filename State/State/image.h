@@ -1,0 +1,6 @@
+enum Image
+{
+	IMAGE_STAND,
+	IMAGE_DUCK,
+	IMAGE_DIVE
+};

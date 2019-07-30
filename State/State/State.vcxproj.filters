@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="enum">
+      <UniqueIdentifier>{34534935-d416-4010-b0a1-7b7db51ab925}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="heroine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="standState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="duckState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="onGroundState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="heroine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="heroineState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="standState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="duckState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="onGroundState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
